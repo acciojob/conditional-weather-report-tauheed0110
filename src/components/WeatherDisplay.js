@@ -5,7 +5,7 @@ const WeatherDisplay = ({weather}) => {
     console.log(weather);
   return (
     <div>
-        <span style={{color: temperature > 20 ? "red": "blue"}}>Temperature: {temperature}</span>
+        <p><span style={{color: temperature > 20 ? "red": "blue"}}>Temperature: {temperature}</span></p>
         <p>Conditions: {conditions}</p>
     </div>
   );
